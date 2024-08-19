@@ -1,21 +1,23 @@
 # Workshop TailwindCSS
 
-Bienvenue sur notre repo pour la préparation au workshop sur TailwindCSS ! Tout d'abord et afin de facilier le bon déroulement de la présentation, nous avons créé 3 sous-dossiers où Tailwind est déjà installé et configuré : **Natif**, **React** et **Laravel**. Vous n'avez plus qu'à choisir la techno que vous voulez et vous pourrez commencer directement à styliser votre formulaire ! N'oubliez pas d'utiliser **Npm install** pour les versions Natif et React et **Composer install** pour Laravel.  
+Bienvenue sur notre repo pour la préparation au workshop sur TailwindCSS ! Tout d'abord et afin de facilier le bon déroulement de la présentation, nous avons créé 3 sous-dossiers où Tailwind est déjà installé et configuré : **Natif**, **React** et **Laravel**. Vous n'avez plus qu'à choisir la techno que vous voulez et vous pourrez commencer directement à styliser votre formulaire ! N'oubliez pas d'utiliser `npm install` pour les versions **Natif** et **React** et `composer install` pour Laravel.  
 
 ### **Attention**: si vous décidez de prendre le dossier Laravel déjà initialisé, vous devrez exécuter quelques commandes avant de pouvoir commencer :
-- Composer install
-- Npm install
-- php artisan key:generate
-- php artisan migrate
-- Npm run dev
-- php artisan serve
-
+```bash
+composer install
+npm install
+cp .env.example .env
+php artisan key:generate
+php artisan migrate
+npm run dev
+php artisan serve
+```
 ---
 
 Voici le lien vers la doc de TailwindCSS pour chercher les équivalents Tailwind des propriétés CSS : https://tailwindcss.com/docs/utility-first  
 Utilisez la barre de recherche "Quick search" pour trouver les propriétés que vous cherchez.
 
-### Nous allons quand même vous détaillez ci-dessous comment faire l'installation et la configuration de Tailwind, vous pourrez ainsi le réutiliser pour vos futurs projets !
+### Nous allons quand même vous détailler ci-dessous comment faire l'installation et la configuration de Tailwind, vous pourrez ainsi le réutiliser pour vos futurs projets !
 
 ---
 
@@ -30,7 +32,7 @@ Utilisez la barre de recherche "Quick search" pour trouver les propriétés que 
 
 2. Ajouter les chemins d'accès à tous les fichiers modèles dans le fichier tailwind.config.js.
 
-    ```bash
+    ```js
     /** @type {import('tailwindcss').Config} */
     module.exports = {
     content: ["./src/**/*.{html,js}"],
@@ -47,7 +49,7 @@ Utilisez la barre de recherche "Quick search" pour trouver les propriétés que 
 
 Créer un dossier src et à l'intérieur un fichier input.css. Ajouter ce qui suit dedans :
 
-```bash
+```css
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -65,7 +67,7 @@ Ca aura pour effet de créer un fichier output.css dans le dossier src.
 
 5. Ajouter le lien vers le CSS dans la balise head de index.html.
 
-```bash
+```html
 <link href="./src/output.css" rel="stylesheet">
 ```
 
@@ -95,7 +97,7 @@ Cette commande va créer deux fichiers dans le projet :
 3. Configurer le fichier `tailwind.config.js`.  
 Ouvre le fichier `tailwind.config.js` et ajouter ceci :
 
-```bash
+```js
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -146,7 +148,7 @@ npx tailwindcss init -p
 3. Configurer le fichier tailwind.config.js.  
 Ouvre le fichier `tailwind.config.js` et ajouter ceci :
 
-```bash
+```js
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -163,13 +165,13 @@ export default {
 
 4. Dans `./resources/css/app.css`, ajouter ceci :
 
-```bash
+```css
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 ```
 
-5. Dans le fichier `.blade.php`, ajouter  `@vite('resources/css/app.css')` dans la balise head. Par exemple, lors de l'initialisation du projet dans le dossier `./resources/views/welcome.blade.php` se trouve la vue 'Welcome'. On peut supprimer ce qui se trouve dedans et ajouter le lien ci-dessus dans le doctype.
+5. Dans le fichier `*.blade.php`, ajouter  `@vite('resources/css/app.css')` dans la balise head. Par exemple, lors de l'initialisation du projet dans le dossier `./resources/views/welcome.blade.php` se trouve la vue 'Welcome'. On peut supprimer ce qui se trouve dedans et ajouter le lien ci-dessus dans le doctype.
 
 6. Il n'y a plus qu'à lancer `npm run dev`
 
