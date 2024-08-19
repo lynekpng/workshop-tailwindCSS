@@ -15,13 +15,13 @@ php artisan serve
 ---
 
 Voici le lien vers la doc de TailwindCSS pour chercher les équivalents Tailwind des propriétés CSS : https://tailwindcss.com/docs/utility-first  
-Utilisez la barre de recherche "Quick search" pour trouver les propriétés que vous cherchez.
+Utilisez la barre de recherche "Quick search" pour trouver les propriétés que vous cherchez. 
+
+### Nous allons quand même vous détailler ci-dessous comment faire l'installation et la configuration de Tailwind, vous pourrez ainsi le réutiliser pour vos futurs projets !
 
 ## Extension VSCode recommandée
 
-Installer l'extension `Tailwind CSS IntelliSense`.  
-
-### Nous allons quand même vous détailler ci-dessous comment faire l'installation et la configuration de Tailwind, vous pourrez ainsi le réutiliser pour vos futurs projets !
+Installer l'extension `Tailwind CSS IntelliSense`. 
 
 ---
 
