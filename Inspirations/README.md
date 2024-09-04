@@ -1,6 +1,6 @@
 # Exemples de design
 
-Voici quelques exemples dont vous pouvez vous inspirer. N'hésitez pas à laisser libre cours à votre imagination ! 🙂
+Voici quelques exemples dont vous pouvez vous inspirer, mais vous êtes bien sûr libres de laisser parler votre imagination ! 🙂
 
 ---
 
