@@ -1,4 +1,4 @@
-# Exemples d'Inspiration
+# Exemples de design
 
 Voici quelques exemples dont vous pouvez vous inspirer. N'hésitez pas à laisser libre cours à votre imagination ! 🙂
 
