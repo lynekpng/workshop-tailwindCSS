@@ -1,6 +1,6 @@
 # Workshop TailwindCSS
 
-here's my version of the tailwind workshop I participated during my BeCode junior developer traineeship ! workshop cunducted by [Caroline](https://github.com/Caroline1123) & [Justine](https://github.com/Justine-Frigo). you can find final result down below :) 
+here's my version of the tailwind exercise I participated during my BeCode junior developer traineeship ! workshop cunducted by [Caroline](https://github.com/Caroline1123) & [Justine](https://github.com/Justine-Frigo). you can find final result down below :) 
 
 
 
