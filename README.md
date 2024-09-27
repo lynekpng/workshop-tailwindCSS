@@ -195,4 +195,4 @@ export default {
 Lien vers la doc : https://tailwindcss.com/docs/guides/laravel
 
 # final result 
-[screenshot]()
+[screenshot](screenshot.png)
