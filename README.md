@@ -1,5 +1,18 @@
 # Workshop TailwindCSS
 
+here's my version of the tailwind workshop I participated during my BeCode junior developer traineeship ! workshop cunducted by [Caroline](https://github.com/Caroline1123) & [Justine](https://github.com/Justine-Frigo). you can find final result down below :) 
+
+
+
+
+
+## Auteurs
+[Caroline](https://github.com/Caroline1123) & [Justine](https://github.com/Justine-Frigo
+
+
+
+
+
 Bienvenue sur notre repo pour la préparation au workshop sur TailwindCSS ! Tout d'abord et afin de facilier le bon déroulement de la présentation, nous avons créé 3 sous-dossiers où Tailwind est déjà installé et configuré : **Natif**, **React** et **Laravel**. Vous n'avez plus qu'à choisir la techno que vous voulez et vous pourrez commencer directement à styliser votre formulaire ! N'oubliez pas d'utiliser `npm install` pour les versions **Natif** et **React** et `composer install` pour Laravel.  
 
 ### **Attention**: si vous décidez de prendre le dossier Laravel déjà initialisé, vous devrez exécuter quelques commandes avant de pouvoir commencer :
@@ -181,5 +194,5 @@ export default {
 
 Lien vers la doc : https://tailwindcss.com/docs/guides/laravel
 
-## Auteurs
-[Caroline](https://github.com/Caroline1123) & [Justine](https://github.com/Justine-Frigo)
+# final result 
+[screenshot]()
