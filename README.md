@@ -7,7 +7,7 @@ here's my version of the tailwind workshop I participated during my BeCode junio
 
 
 ## Auteurs
-[Caroline](https://github.com/Caroline1123) & [Justine](https://github.com/Justine-Frigo
+[Caroline](https://github.com/Caroline1123) & [Justine](https://github.com/Justine-Frigo)
 
 
 
